@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/app.scss",
+        "../scss/base/_variables.scss",
+        "../scss/base/_general.scss",
+        "../scss/componants/nav.scss"
+    ],
+    "names": [],
+    "file": "app.min.css"
+}
