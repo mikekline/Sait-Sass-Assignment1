@@ -9,3 +9,8 @@
     "singleQuote": true
 }
 ```
+
+##CSS Folder 
+The _CSS_ folder should be located in:
+>/css
+
