@@ -1,0 +1,26 @@
+{
+  "name": "sait-sass-assignment1",
+  "version": "1.0.0",
+  "description": "Super awesome website happy fun time ",
+  "main": "index.html",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekline/Sait-Sass-Assignment1.git"
+  },
+  "keywords": [
+    "Nah"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikekline/Sait-Sass-Assignment1/issues"
+  },
+  "homepage": "https://github.com/mikekline/Sait-Sass-Assignment1#readme"
+}
