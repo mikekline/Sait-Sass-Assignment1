@@ -29,10 +29,24 @@
 }
 
 .thumb-card {
-  
+  display: flex;
+
+  .thumb-text-wrap {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 2rem;
+  }
 
   img {
     width: 150px;
+  }
+
+  p {
+    padding: 0;
+    line-height: 1.25;
+
+    font-size: 1.1rem;
   }
 }
 
