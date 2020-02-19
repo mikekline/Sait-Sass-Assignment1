@@ -1,0 +1,34 @@
+/* Color Theme Swatches in RGBA */
+
+$navy-denim: hsla(238, 35, 18, 1);
+
+$deep-pink: rgba(184,94,142, 1);
+$sun-line: rgba(255,216,182, 1);
+$sun-line-lighten: rgba(255,216,182, 0.4);
+$light-pink: rgba(255,162,193, 1);
+$sea: rgba(121,201,189, 1);
+$deep-sea: rgba(114,176,167, 1);
+
+
+// Type-setting
+$sans-serif: "Zeitung", "Helvetica", sans-serif;
+
+$serif: "Karmina", "Garamond", serif;
+
+//Reusable dimension and sizing variables ---- these conventions are not yet set in stone, open to better suggestions
+
+  // Header
+  $header-rl-padding: 0 22vh;
+
+
+  // Main
+  $content-left-padding: 22vh;
+  $content-right-padding: 22vh;
+  $con-right-pad-slim: 2.5vw;
+
+  // Sections
+
+  // column assignment
+  $single-column: "1/2";
+  $two-column: "1/3";
+ 

@@ -1,0 +1,27 @@
+body{
+  background-color: $sun-line-lighten;
+
+  font-family: $sans-serif;
+}
+
+ul > li > a {
+  padding: 0 1.5rem;
+}
+
+main {
+  padding-left: $content-left-padding;
+  padding-right: $content-right-padding;
+}
+
+h1 {
+  font-family: $serif;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
