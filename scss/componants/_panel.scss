@@ -3,13 +3,17 @@
   grid-template-columns: 11fr 9fr;
   gap: 8vw;
 
-  padding: 11vh 0;
+  padding: $main-vertical-padding;
 
   border-bottom: 2px solid $deep-sea;
 }
 
 .article-column {
-  background-color: $sun-line-lighten;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // This setting is just here to help visualize the space when editting
+  // background-color: $sun-line-lighten;
 }
 
 main > .news-panel:last-child {
