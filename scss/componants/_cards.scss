@@ -66,10 +66,11 @@
 
 .detailsBox{
   background-image: url('https://i.picsum.photos/id/1023/3955/2094.jpg');
-  height: 40vh;
+  height: 20rem;
   margin:1rem $content-right-padding 1rem $content-left-padding;
-  background-position: center ;
-  background-size: cover;
+  background-position: center;
+  background-size:100%;
+  background-repeat: no-repeat;
 }
 //---------------------------------------------------------------
 
