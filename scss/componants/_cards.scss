@@ -1,0 +1,61 @@
+@mixin createNewsCard($card-class, $columns, $h1-margin) {
+  .#{$card-class} {
+    grid-column: #{$columns};
+
+    img {
+      max-height: 450px;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    h1 {
+      margin: $h1-margin;
+      // padding: 1rem 0;
+    }
+
+    h3 {
+      margin: 1rem 0 0 0;
+      padding: 0 0 0 .5rem;
+    }
+
+    p {
+      padding: 0 .5rem;
+      line-height: 1.25;
+
+      font-size: 1.25rem;
+    }
+
+  }
+}
+
+.thumb-card {
+  
+
+  img {
+    width: 150px;
+  }
+}
+
+// $display: flex;
+// $font-family: helvetica;
+// $background-color: orange;
+
+
+// @mixin createCard ($display, $font-family, $background-color){
+  
+//   .card_style{
+//   display: $display;
+//   font-family: $font-family;
+//   background-color: $background-color;
+//   width: 200px;
+//   height: 200px;
+//  }
+// }
+
+// @include createCard ($display, $font-family, $background-color);
+
+
+
+
+@include createNewsCard("news-card",$single-column, 1rem 0);
+@include createNewsCard("news-card-2",$two-column, 3rem 0 1rem 0);

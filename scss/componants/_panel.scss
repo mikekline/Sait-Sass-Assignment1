@@ -1,0 +1,17 @@
+.news-panel {
+  display: grid;
+  grid-template-columns: 11fr 9fr;
+  gap: 8vw;
+
+  padding: 11vh 0;
+
+  border-bottom: 2px solid $deep-sea;
+}
+
+.article-column {
+  background-color: $sun-line-lighten;
+}
+
+main > .news-panel:last-child {
+  border-bottom: none;
+}
