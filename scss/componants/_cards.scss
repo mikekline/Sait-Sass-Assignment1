@@ -29,31 +29,55 @@
 }
 
 .thumb-card {
-  
+  display: flex;
+
+  .thumb-text-wrap {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 2rem;
+  }
 
   img {
     width: 150px;
   }
+
+  h2 {
+    font-size: calc(20px + (32 - 20) * ((100vw - 50px) / (1600 - 500)));
+  }
+
+  p {
+    padding: 0;
+    line-height: 1.25;
+
+    font-size: 1.1rem;
+  }
 }
 
-// $display: flex;
-// $font-family: helvetica;
-// $background-color: orange;
+//-------------------details main section--------------------------
+.detailsMain {
+  padding: $main-vertical-padding;
+}
+
+.detailsMain p {
+  margin-bottom: 1rem;
+  padding: 1rem $content-right-padding 1rem $content-left-padding;
+}
 
 
-// @mixin createCard ($display, $font-family, $background-color){
-  
-//   .card_style{
-//   display: $display;
-//   font-family: $font-family;
-//   background-color: $background-color;
-//   width: 200px;
-//   height: 200px;
-//  }
-// }
+.detailsMain h1 {
+  padding: 0 $content-right-padding 0 $content-left-padding;
+}
 
-// @include createCard ($display, $font-family, $background-color);
-
+.detailsBox{
+  background-image: url('https://i.picsum.photos/id/1023/3955/2094.jpg');
+  height: 20vh;
+  margin: .5rem $content-right-padding .5rem $content-left-padding;
+  background-position: center;
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+//---------------------------------------------------------------
 
 
 
