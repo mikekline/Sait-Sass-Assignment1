@@ -42,6 +42,10 @@
     width: 150px;
   }
 
+  h2 {
+    font-size: calc(20px + (32 - 20) * ((100vw - 50px) / (1600 - 500)));
+  }
+
   p {
     padding: 0;
     line-height: 1.25;
@@ -60,6 +64,7 @@
   padding: 1rem $content-right-padding 1rem $content-left-padding;
 }
 
+
 .detailsMain h1 {
   padding: 0 $content-right-padding 0 $content-left-padding;
 }
@@ -73,6 +78,7 @@
   background-repeat: no-repeat;
 }
 //---------------------------------------------------------------
+
 
 
 @include createNewsCard("news-card",$single-column, 1rem 0);
