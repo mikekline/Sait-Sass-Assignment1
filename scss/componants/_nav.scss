@@ -3,8 +3,9 @@
   // background-color: $light-pink;
   background-color: $deep-pink;
   width:100%;
+  min-height: 50px;
   height: 7.75vh;
-  min-height: 100%;
+  max-height: 100%;
 }
 
 .nav {
@@ -17,24 +18,28 @@
     @extend .nav-style;
 
     padding-left: $content-left-padding;
+
+    ul > li:first-child a {
+      padding-left: 0;
+    }
+
+    li{
+      display: flex;
+      flex-grow:1;
+      align-items: center;
+      align-content: center;
+    }
+  
+    a {
+      flex-grow:1;
+      display: block;
+      line-height: 7.75vh;
+  
+      font-size: 1.25rem;
+      color: $navy-denim;
+    }
   }
 
-  ul > li:first-child a {
-    padding-left: 0;
-  }
 
-  li{
-    display: flex;
-    align-items: center;
-    align-content: center;
-  }
-
-  a {
-    display: block;
-    line-height: 7.75vh;
-
-    font-size: 1.25rem;
-    color: $navy-denim;
-  }
 }
 

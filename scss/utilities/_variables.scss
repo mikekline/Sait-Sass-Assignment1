@@ -15,20 +15,32 @@ $sans-serif: "Zeitung", "Helvetica", sans-serif;
 
 $serif: "Karmina", "Garamond", serif;
 
+$h1-responsive-font:calc(32px + (40 - 32) * ((100vw - 500px) / (1600 - 500)));
+$h2-responsive-font:calc(18x + (26 - 18) * ((100vw - 500px) / (1600 - 500)));
+$h3-responsive-font:calc(16px + (24 - 16) * ((100vw - 500px) / (1600 - 500)));
+$h4-responsive-font:calc(14px + (20 - 14) * ((100vw - 500px) / (1600 - 500)));
+
+
 //Reusable dimension and sizing variables ---- these conventions are not yet set in stone, open to better suggestions
 
   // Header
   $header-rl-padding: 0 22vh;
+  $header-media-padding: 5vmin;
 
 
   // Main
 
   $main-vertical-padding: 11vh 0;
-  $content-left-padding: 22vh;
-  $content-right-padding: 22vh;
+  $content-left-padding: 22vmin;
+  $content-right-padding: 22vmin;
   $con-right-pad-slim: 2.5vw;
 
+  $media-lr-padding: 0 15vmin;
+
   // Sections
+
+  $media-article-padding: 0 0 11vmin 0;
+  $media-thumb-padding:11vmin 0 0 0;
 
   // column assignment
   $single-column: "1/2";
