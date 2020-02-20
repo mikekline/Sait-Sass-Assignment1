@@ -16,19 +16,21 @@ main {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: $h1-responsive-font;
 }
+
 h2 {
-  font-size: 2rem;
+  font-size: $h2-responsive-font;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: $h3-responsive-font;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: $h4-responsive-font;
 }
+
 
 h1,
 h2,
@@ -37,4 +39,71 @@ h4,
 h5,
 h6 {
   font-family: $serif;
+
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+  .header {
+    height: 11vh;
+    min-height:100px;
+    
+    .header-top-bar {
+      min-height: 100px;
+      height: 100%;
+  
+      padding: $header-media-padding;
+
+      input[type="search"] {
+        display: none;
+      }
+
+      
+      h1 {
+        font-size:1.5rem;
+      }
+    }
+  }
+
+  .nav {
+    display: none;
+  }
+  .nav > ul{
+    padding: $header-media-padding;
+  }
+
+  main {
+    padding: $media-lr-padding;
+  }
+
+  .news-panel {
+    display: flex;
+    flex-direction: column;
+  
+    padding: $main-vertical-padding;
+  
+    border-bottom: 2px solid $deep-sea;
+  }
+  
+  .article-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    // padding: $media-article-padding;
+  }
+
+  .thumb-card {
+    padding: $media-thumb-padding;
+  }
+}
+
+
