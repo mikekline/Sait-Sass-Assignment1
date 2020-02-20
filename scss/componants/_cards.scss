@@ -54,19 +54,32 @@
   }
 }
 
-.detailsBox{
-  background-image: url('https://i.picsum.photos/id/1023/3955/2094.jpg');
-  height: 20vh;
-  width: 100%;
-  margin:1rem 0 1rem 0;
-  background-position: center;
-  background-size: cover;
+//-------------------details main section--------------------------
+.detailsMain {
+  padding: $main-vertical-padding;
 }
 
 .detailsMain p {
   margin-bottom: 1rem;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem $content-right-padding 1rem $content-left-padding;
 }
+
+
+.detailsMain h1 {
+  padding: 0 $content-right-padding 0 $content-left-padding;
+}
+
+.detailsBox{
+  background-image: url('https://i.picsum.photos/id/1023/3955/2094.jpg');
+  height: 20rem;
+  margin:1rem $content-right-padding 1rem $content-left-padding;
+  background-position: center;
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+//---------------------------------------------------------------
+
+
 
 @include createNewsCard("news-card",$single-column, 1rem 0);
 @include createNewsCard("news-card-2",$two-column, 3rem 0 1rem 0);
