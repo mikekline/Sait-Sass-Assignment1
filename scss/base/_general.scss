@@ -156,7 +156,15 @@ h6 {
       }
     }
   }
+  .open {
+    transform: translateX(0);
+  }
 
+  .writers-block {
+   
+    flex-direction: column-reverse;
+    
+  }
 }
 
 

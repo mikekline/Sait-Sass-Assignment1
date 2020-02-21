@@ -1,6 +1,5 @@
 
 .nav-style {
-  // background-color: $light-pink;
   background-color: $deep-pink;
   width:100%;
   min-height: 50px;
@@ -49,7 +48,6 @@
 
 .ham-wrap {
   display: none;
-  // display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -75,7 +73,8 @@
 }
 
 
-.ham-wrap:hover {
+.open-ham {
+  transform: translateX(-300px);
 
   .line-3 {
     transform: translate(0, -12px) rotate(45deg);
@@ -95,52 +94,3 @@
 header {
   min-height: 0;
 }
-
-// .nav {
-//   display: flex;
-//   position: fixed;
-//   justify-content: flex-end;
-//   align-self: flex-end;
-
-//   transform: translateX(300px);
-
-//   width: 40vw;
-//   max-width: 300px;
-
-//   background-color: $deep-pink;
-//   height: 100vh;
-
-//   transition: all .1s; 
-
-//   ul {
-//     display: flex;
-//     flex-direction: column;
-//     width:100%;
-//     background-color: $deep-pink;
-//     align-content: space-evenly;
-//     padding-left: 0;
-
-//     ul > li:first-child a {
-//       padding-left: 0;
-//     }
-
-//     li{
-//       display: flex;
-//       align-items: center;
-//       align-content: center;
-//       justify-content: center;
-//     }
-  
-//     a {
-//       display: block;
-//       flex-grow:1;
-//       text-align: center;
-//       padding: .75rem 1.5rem;
-  
-//     }
-//   }
-// }
-
-
-
-

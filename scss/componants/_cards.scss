@@ -10,7 +10,6 @@
   
     h1 {
       margin: $h1-margin;
-      // padding: 1rem 0;
     }
 
     h3 {
@@ -79,9 +78,39 @@
 }
 //---------------------------------------------------------------
 
+//-------------------writers main section--------------------------
+.farticle {
+  display: flex;
+  flex-direction: column;
+}
 
 
+
+.writers {
+  padding: $main-vertical-padding;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.writers-block {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2vmin;
+
+  .writer-img {
+    min-width: 200px;
+  }
+}
+
+
+.writter-div {
+  display: flex;
+  flex-direction: column;
+}
+//---------------------------------------------------------------
 
 
 @include createNewsCard("news-card",$single-column, 1rem 0);
 @include createNewsCard("news-card-2",$two-column, 3rem 0 1rem 0);
+@include createNewsCard("writers",$single-column , 1rem)
